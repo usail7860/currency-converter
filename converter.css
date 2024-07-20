@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    /* margin-top: 2px; */
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: default;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-color: rgb(127, 175, 235);
+}
+.container{
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    height: 25rem;
+    min-width: 20rem;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 50px;
+    letter-spacing: 0.7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    background: #9ddb46;
+}
+form{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.amount{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+
+}
+input{
+    width: 20rem;
+    margin-top: 5px;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: .5rem;
+    font-size: 15px;
+    padding-left: 0.5rem;
+    height: 2.5rem;
+}
+
+.dropdown{
+    display: flex;
+    margin-top: 1.5rem;
+justify-content: space-between;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+align-items: center;
+}
+.options{
+    display: flex;
+    /* background: #000; */
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+select{
+    margin-left: 8px;
+    color: aliceblue;
+    padding: 3px;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: rgb(102, 104, 103);
+}
+i{
+    margin-top: 18px;
+}
+.info{
+    margin-top: 2rem;
+    display: flex;
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(55, 55, 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+font-size:1.1em;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    margin-top: 2rem;
+}
+button{
+    padding: 3px 35px 3px 35px;
+    font-size: 1.3rem;
+    background: #212020;
+    color: #f4f4f4;
+    border-radius: 0.5rem;
+cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+img{
+    max-width:  50px;
+}
